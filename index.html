@@ -13,6 +13,21 @@
 
 <body>
     <main class="flex column">
+        <!-- moved here because we need overflow hidden of right-inner to keep the image inside border radius so keepin it there would result in icons being cut off -->
+        <div class="social-icons flex">
+            <a href="#" class="icon">
+                <i class="fa-brands fa-facebook-f"></i>
+            </a>
+            <a href="#" class="icon">
+                <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a href="#" class="icon">
+                <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="#" class="icon">
+                <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+        </div>
         <div class="left-side">
             <nav class="navbar flex">
                 <a href="#" class="logo">TP</a>
@@ -35,23 +50,10 @@
         <div class="right-side">
             <div class="right-inner">
                 <div class="profile-image">
-                    <!-- <img src="image/tannu.jpeg"> -->
+                    <img src="image/tannu.jpeg">
                 </div>
 
-                <div class="social-icons flex">
-                    <a href="#" class="icon">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                    <a href="#" class="icon">
-                        <i class="fa-brands fa-x-twitter"></i>
-                    </a>
-                    <a href="#" class="icon">
-                        <i class="fa-brands fa-instagram"></i>
-                    </a>
-                    <a href="#" class="icon">
-                        <i class="fa-brands fa-pinterest-p"></i>
-                    </a>
-                </div>
+                
             </div>
         </div>
     </main>
